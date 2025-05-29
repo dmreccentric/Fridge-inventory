@@ -1,10 +1,15 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
+import ExpiryCountdown from "./Pages/ExpiryCountdown";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />, // <-- this renders the Home component
+    element: <Home />,
+  },
+  {
+    path: "/expiry",
+    element: <ExpiryCountdown />,
   },
 ]);
 
