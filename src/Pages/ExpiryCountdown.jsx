@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { FaExclamation } from "react-icons/fa6";
 
 import IconCtn from "../components/IconCtn";
-import Reuseablecard from "../components/reuseablecard";
+import Reuseablecard from "../components/Reuseablecard";
 import { fooditems } from "../constants/fooditems";
 
 const ExpiryCountdown = () => {
