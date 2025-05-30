@@ -3,6 +3,7 @@ import Home from "./Pages/Home";
 import ExpiryCountdown from "./Pages/ExpiryCountdown";
 import Signup from "./Pages/SignUp";
 import Login from "./Pages/Login";
+import Profile from "./Pages/Profile";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
   },
 ]);
 

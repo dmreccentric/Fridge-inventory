@@ -15,14 +15,14 @@ import { fooditems } from "../constants/fooditems";
 const ExpiryCountdown = () => {
   return (
     <div>
-      <div className="flex justify-between mt-4 mx-4">
+      <div className="flex justify-between mt-4 mb-11 mx-4">
         <Link to={"/"}>
           <IconCtn icon={<MdOutlineKeyboardArrowLeft />} />
         </Link>
 
         <div className="flex gap-3 ">
           <IconCtn icon={<CiClock2 />} />
-          <IconCtn icon={<IoMdContact />} />
+          <IconCtn link={"/profile"} icon={<IoMdContact />} />
           <IconCtn icon={<PiDotsThree />} />
         </div>
       </div>
@@ -45,7 +45,7 @@ const ExpiryCountdown = () => {
         ))}
       </div>
       <div className="flex justify-center items-center mt-10">
-        <div className="h-24 w-24 rounded-full bg-black flex justify-center items-center text-white text-3xl mb-6">
+        <div className="h-24 w-24 rounded-full bg-black flex justify-center items-center text-white text-3xl mb-20">
           <FiPlus />
         </div>
       </div>
