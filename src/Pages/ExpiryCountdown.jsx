@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { FaExclamation } from "react-icons/fa6";
 
 import IconCtn from "../components/IconCtn";
-import Reuseablecard from "../components/Reuseablecard";
+import Reuseablecard from "../components/reuseablecard";
 import { fooditems } from "../constants/fooditems";
 
 const ExpiryCountdown = () => {
@@ -30,7 +30,7 @@ const ExpiryCountdown = () => {
       <h2 className="font-bold capitalize  mt-[2rem] mb-[2rem] text-2xl pl-9">
         expiry countdown
       </h2>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 mx-4">
         {fooditems.map((item, index) => (
           <Reuseablecard
             key={index}
