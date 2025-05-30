@@ -4,6 +4,7 @@ import { CiClock2 } from "react-icons/ci";
 import { IoMdContact } from "react-icons/io";
 import { PiDotsThree } from "react-icons/pi";
 import { FiPlus } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 import { FaExclamation } from "react-icons/fa6";
 
@@ -15,7 +16,9 @@ const ExpiryCountdown = () => {
   return (
     <div>
       <div className="flex justify-between mt-4 mx-4">
-        <IconCtn icon={<MdOutlineKeyboardArrowLeft />} />
+        <Link to={"/"}>
+          <IconCtn icon={<MdOutlineKeyboardArrowLeft />} />
+        </Link>
 
         <div className="flex gap-3 ">
           <IconCtn icon={<CiClock2 />} />
