@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { fooditems } from "../constants/fooditems";
-import Reuseablecard from "../components/reuseablecard";
+import Reuseablecard from "../components/Reuseablecard";
 import IconCtn from "../components/IconCtn";
 import LoginBtn from "../components/LoginBtn";
 import { HiOutlineDotsHorizontal } from "react-icons/hi";
