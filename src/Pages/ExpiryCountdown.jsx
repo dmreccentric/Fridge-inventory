@@ -45,7 +45,7 @@ const ExpiryCountdown = () => {
         ))}
       </div>
       <div className="flex justify-center items-center mt-10">
-        <div className="h-24 w-24 rounded-full bg-black flex justify-center items-center text-white text-3xl">
+        <div className="h-24 w-24 rounded-full bg-black flex justify-center items-center text-white text-3xl mb-6">
           <FiPlus />
         </div>
       </div>

@@ -54,7 +54,7 @@ function Home() {
       </div>
       <div className="mx-4 mt-16">
         <LoginBtn title={"Continue with email"} link={"/signup"} border />
-        <div className="flex justify-between mt-10 items-center px-5">
+        <div className="flex justify-between mt-10 items-center px-5 mb-6">
           <div className="text-[14px] font-normal">
             <p className="text-[#d5cbcb] ">Or continue using</p>
             <p className="capitalize">apple ID, google</p>

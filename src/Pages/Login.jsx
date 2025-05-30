@@ -9,7 +9,7 @@ const Login = () => {
   return (
     <div className="mx-4 my-8">
       <div>
-        <Link to={"/"}>
+        <Link to={"/signup"}>
           <IconCtn icon={<MdOutlineKeyboardArrowLeft />} />
         </Link>
       </div>
@@ -28,7 +28,7 @@ const Login = () => {
 
             alert(`Logged in as: ${username.value}`);
 
-            navigate("/login");
+            navigate("/");
           }}
         >
           <div className="flex flex-col gap-4 mb-10">
